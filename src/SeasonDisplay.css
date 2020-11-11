@@ -1,0 +1,29 @@
+.season {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  /* height: 500px; */
+  margin: 5%;
+  padding: 5%;
+  box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.2);
+}
+
+.season__leftIcon {
+  width: 100%;
+  text-align: center;
+  border: 1px solid red;
+  color: blue;
+}
+
+.season__text {
+  flex: 1;
+  text-align: center;
+  border: 1px solid red;
+}
+
+.season__rightIcon {
+  text-align: center;
+  border: 1px solid red;
+  color: blue;
+}
